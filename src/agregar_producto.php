@@ -1,4 +1,4 @@
-<?php
+<?php   //Conexion con el panel de administracion y configuraciones correspondientes para agrega productos
 include_once "includes/header.php";
 include "../conexion.php";
 $id_user = $_SESSION['idUser'];
@@ -43,6 +43,7 @@ if (!empty($_POST)) {
     }
 }
 ?>
+<!-- Aqui agregamos el contenido de esta seccion que es la de agregar productos y incluimos el footer -->
 <div class="row">
     <div class="col-lg-6 m-auto">
         <div class="card">

@@ -1,4 +1,4 @@
-<?php
+<?php //Aqui hacemos la conexion a la BD
     $host = "localhost";
     $user = "root";
     $clave = "";

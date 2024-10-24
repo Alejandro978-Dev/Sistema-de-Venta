@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php"; // Comandos para el funcionamiento de la seccion de agregar cliente
 include "../conexion.php";
 $id_user = $_SESSION['idUser'];
 $permiso = "clientes";
@@ -44,7 +44,7 @@ if ($result_sql == 0) {
     }
 }
 ?>
-<!-- Begin Page Content -->
+<!-- Contenido de la seccion -->
 <div class="container-fluid">
 
     <div class="row">

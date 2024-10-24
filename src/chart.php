@@ -1,4 +1,4 @@
-<?php
+<?php // Este es para manejar los productos en su existencia o inventario
 include("../conexion.php");
 if ($_POST['action'] == 'sales') {
     $arreglo = array();

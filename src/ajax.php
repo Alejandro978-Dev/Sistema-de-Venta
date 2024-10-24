@@ -1,4 +1,4 @@
-<?php
+<?php  // En este se encuentra los comandos de cada area para que nos de los datos 
 require_once "../conexion.php";
 session_start();
 if (isset($_GET['q'])) {

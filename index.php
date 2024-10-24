@@ -1,4 +1,5 @@
-<?php
+<?php //Aqui Comenzamos con nuestro archivo
+// Iniciamos con los comandos para conectar con la BD para el Login
 session_start();
 if (!empty($_SESSION['active'])) {
     header('location: src/');
@@ -36,6 +37,7 @@ if (!empty($_SESSION['active'])) {
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Aqui comenzamos a escribir lo que contiene el Login -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -100,6 +102,7 @@ if (!empty($_SESSION['active'])) {
             </footer>
         </div>
     </div>
+    <!-- Añadimos Scripst correspondientes -->
     <script src="assets/js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.js"></script>

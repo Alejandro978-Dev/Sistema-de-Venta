@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php"; // Comandos para el manejo de la seccion de usuarios 
 include "../conexion.php";
 $id_user = $_SESSION['idUser'];
 $permiso = "usuarios";
@@ -40,6 +40,7 @@ if (!empty($_POST)) {
     }
 }
 ?>
+<!--Contenido de la seccion-->
 <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#nuevo_usuario"><i class="fas fa-plus"></i></button>
 <div id="nuevo_usuario" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
     <div class="modal-dialog" role="document">

@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php"; // Comandos correspodientes para la seccion donde se otorgan la funciones de los usuarios 
 require_once "../conexion.php";
 $id = $_GET['id'];
 $sqlpermisos = mysqli_query($conexion, "SELECT * FROM permisos");
@@ -30,7 +30,7 @@ if (isset($_POST['permisos'])) {
     }
 }
 ?>
-
+<!--Contenido de la seccion-->
 <div class="row">
     <div class="col-md-6 mx-auto">
         <div class="card">

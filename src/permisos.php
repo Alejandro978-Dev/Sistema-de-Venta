@@ -1,4 +1,4 @@
-<?php include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?> <!-- Comando para aquellos usuarios que no tienen los permisos-->
 <div class="row">
     <div class="col-md-5 mx-auto">
         <div class="card">

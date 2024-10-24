@@ -6,7 +6,7 @@ if (empty($_SESSION['active'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Aqui comenzamos a crear el contenido de panel de Administracion -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php"; //Comando para generar el apartado de ventas
 require("../conexion.php");
 $id_user = $_SESSION['idUser'];
 $permiso = "nueva_venta";
@@ -8,6 +8,7 @@ if (empty($existe) && $id_user != 1) {
     header("Location: permisos.php");
 }
 ?>
+<!-- Contenido de la seccion-->
 <div class="row">
     <div class="col-lg-12">
         <div class="form-group">

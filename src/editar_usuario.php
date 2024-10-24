@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php";  // Comandos para el funcionamiento de la seccion de editar usuario
 require "../conexion.php";
 $id_user = $_SESSION['idUser'];
 $permiso = "usuarios";
@@ -40,6 +40,7 @@ if ($result_sql == 0) {
     }
 }
 ?>
+<!-- Contenido de la seccion-->
 <div class="row">
     <div class="col-md-6 mx-auto">
         <div class="card">

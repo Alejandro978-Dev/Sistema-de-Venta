@@ -1,4 +1,4 @@
- <?php include_once "includes/header.php";
+ <?php include_once "includes/header.php"; // Comandos para la seccion de productos 
     include "../conexion.php";
 $id_user = $_SESSION['idUser'];
 $permiso = "productos";
@@ -40,6 +40,7 @@ if (empty($existe) && $id_user != 1) {
         }
     }
     ?>
+    <!-- Contenido de la seccion-->
  <button class="btn btn-primary mb-2" type="button" data-toggle="modal" data-target="#nuevo_producto"><i class="fas fa-plus"></i></button>
  <?php echo isset($alert) ? $alert : ''; ?>
  <div class="table-responsive">

@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php";  // Integracion al panel de admistracion 
 require "../conexion.php";
 $usuarios = mysqli_query($conexion, "SELECT * FROM usuario");
 $totalU= mysqli_num_rows($usuarios);
@@ -13,7 +13,7 @@ $totalV = mysqli_num_rows($ventas);
         <h1 class="h3 mb-0 text-gray">Panel de Administración</h1>
     </div>
 
-    <!-- Content Row -->
+    <!-- Contenido -->
     <div class="row">
         <a class="col-xl-3 col-md-6 mb-4" href="usuarios.php">
             <div class="card border-left-primary shadow h-100 py-2 bg-warning">
@@ -31,7 +31,7 @@ $totalV = mysqli_num_rows($ventas);
             </div>
         </a>
 
-        <!-- Earnings (Monthly) Card Example -->
+        <!-- Contenido de las cartas o cuadros de informacion -->
         <a class="col-xl-3 col-md-6 mb-4" href="clientes.php">
             <div class="card border-left-success shadow h-100 py-2 bg-success">
                 <div class="card-body">
@@ -48,7 +48,7 @@ $totalV = mysqli_num_rows($ventas);
             </div>
         </a>
 
-        <!-- Earnings (Monthly) Card Example -->
+        <!-- Contenido de las cartas o cuadros de informacion -->
         <a class="col-xl-3 col-md-6 mb-4" href="productos.php">
             <div class="card border-left-info shadow h-100 py-2 bg-primary">
                 <div class="card-body">
@@ -74,7 +74,7 @@ $totalV = mysqli_num_rows($ventas);
             </div>
         </a>
 
-        <!-- Pending Requests Card Example -->
+        <!-- Contenido de cuandro de ventas  -->
         <a class="col-xl-3 col-md-6 mb-4" href="ventas.php">
             <div class="card border-left-warning bg-danger shadow h-100 py-2">
                 <div class="card-body">

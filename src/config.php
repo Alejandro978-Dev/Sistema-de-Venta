@@ -1,4 +1,4 @@
-<?php
+<?php //Comandos para el funcionamiento del apartado de Configuracion 
 include_once "includes/header.php";
 require_once "../conexion.php";
 $id_user = $_SESSION['idUser'];
@@ -31,7 +31,7 @@ if ($_POST) {
     }
 }
 ?>
-
+<!-- Agregamos el contenido del apartado de configuracion -->
 <div class="row">
 <div class="col-md-6 mx-auto">
             <div class="card">

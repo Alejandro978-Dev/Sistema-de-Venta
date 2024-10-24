@@ -1,4 +1,4 @@
-<?php
+<?php // En este los comandos donde hacemos el uso de registro de ventas
 include_once "includes/header.php";
 require_once "../conexion.php";
 $id_user = $_SESSION['idUser'];

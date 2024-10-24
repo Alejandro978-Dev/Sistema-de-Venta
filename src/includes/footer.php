@@ -1,4 +1,4 @@
-</div>
+</div> <!-- Aqui ponemos el contenido del footer el cual aparecera en la mayoria de items -->
 </main>
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
@@ -39,6 +39,7 @@
         </div>
     </div>
 </div>
+<!-- Ponemos Scripts Correspondientes -->
 <script src="../assets/js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <script src="../assets/js/scripts.js"></script>

@@ -1,4 +1,4 @@
-<?php
+<?php  // Comandos para llevar a cabo la eliminacion de usuarios
 session_start();
 require("../conexion.php");
 $id_user = $_SESSION['idUser'];

@@ -1,4 +1,4 @@
-<?php include_once "includes/header.php";
+<?php include_once "includes/header.php"; // Esta seccion consta de los comando para manejar la seccion de clientes
 include "../conexion.php";
 $id_user = $_SESSION['idUser'];
 $permiso = "clientes";
@@ -41,7 +41,7 @@ if (!empty($_POST)) {
     }
     mysqli_close($conexion);
 }
-?>
+?> <!-- Aqui vamos con el contenido que tiene esta seccion -->
 <button class="btn btn-primary mb-2" type="button" data-toggle="modal" data-target="#nuevo_cliente"><i class="fas fa-plus"></i></button>
 <?php echo isset($alert) ? $alert : ''; ?>
 <div class="table-responsive">

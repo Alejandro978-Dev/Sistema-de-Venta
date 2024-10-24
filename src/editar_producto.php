@@ -1,4 +1,4 @@
-<?php
+<?php  // Comandos para el funcionamiento de la seccion de editar producto
 include_once "includes/header.php";
 include "../conexion.php";
 $id_user = $_SESSION['idUser'];
@@ -50,7 +50,7 @@ if (empty($_REQUEST['id'])) {
     header("Location: productos.php");
   }
 }
-?>
+?> <!-- Contenido de la seccion-->
 <div class="row">
   <div class="col-lg-6 m-auto">
 
